@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.header {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  justify-content: space-between;
+  font-size: 24px;
+  align-items: center;
+}
+
+.description {
+  display: flex;
+  background-color: #1F2937;
+}
+
+.description_text {
+  display: flex;
+  flex-direction: column;
+}
